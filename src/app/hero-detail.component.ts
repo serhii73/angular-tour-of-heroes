@@ -1,3 +1,5 @@
+import { Hero } from './hero';
+hero: Hero;
 @Component({
     selector: 'hero-detail',
     template: `
@@ -11,3 +13,4 @@
       </div>
     `
   })
+  
