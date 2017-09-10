@@ -7,6 +7,15 @@ import { HeroDetailComponent } from './hero-detail.component';
 import { HeroesComponent }     from './heroes.component';
 import { HeroService }         from './hero.service';
 
+import { RouterModule }   from '@angular/router';
+
+RouterModule.forRoot([
+  {
+    path: 'heroes',
+    component: HeroesComponent
+  }
+])
+
 @NgModule({
   imports: [
     BrowserModule,
